@@ -1,0 +1,18 @@
+/* h2, h4 {
+    color:yellow;
+    background-color:black;
+}
+
+p {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    color: red;
+} */
+
+.item {
+    width: 500px;
+    background: pink;
+}
