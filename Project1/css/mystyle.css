@@ -1,0 +1,21 @@
+/* css_selecter: 
+# dùng để select id
+. dùng để select class
+*/
+
+h3 {
+    color:chartreuse; 
+    background-color: pink ;
+}
+
+#hoho {
+    color:aqua;
+}
+
+.cl {
+    color:coral;
+}
+
+h3.cl {
+    color:honeydew;
+}

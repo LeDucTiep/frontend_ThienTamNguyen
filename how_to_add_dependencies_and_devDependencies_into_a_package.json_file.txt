@@ -1,0 +1,16 @@
+mở cmd trong project
+
+npm init
+
+npm install gulp-htmlmin --save-prod
+
+npm install browser-sync --save-dev
+npm install gulp --save-dev
+npm install gulp-autoprefixer --save-dev
+npm install gulp-clean-css --save-dev
+npm install gulp-csscomb --save-dev
+npm install gulp-merge-media-queries --save-dev
+npm install gulp-rename --save-dev
+npm install gulp-sass --save-dev
+npm install gulp-uglify --save-dev
+
