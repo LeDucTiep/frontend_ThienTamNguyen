@@ -1,0 +1,19 @@
+.articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.articles .article {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 1%;
+}
+
+.articles .article img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

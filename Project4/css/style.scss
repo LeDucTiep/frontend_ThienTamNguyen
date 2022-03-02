@@ -1,0 +1,15 @@
+.article {
+    width: 500px;
+    border: 1px solid black;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    p {
+        padding-bottom: 10px;
+    }
+    h2 {
+        margin-bottom: 10px;
+    }
+    img {
+        width: 100%;
+    }
+}

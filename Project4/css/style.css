@@ -1,0 +1,19 @@
+.article {
+  width: 500px;
+  border: 1px solid black;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+
+.article p {
+  padding-bottom: 10px;
+}
+
+.article h2 {
+  margin-bottom: 10px;
+}
+
+.article img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
