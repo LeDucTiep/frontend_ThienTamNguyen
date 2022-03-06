@@ -1,0 +1,52 @@
+// h1 {
+//     transition: all 0.5s;
+// }
+
+// h1:hover {
+//     color: red;
+//     background: gold;
+
+// }
+
+header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    a {
+        color: white;
+    }
+    .logo {
+        a {
+            font-size: 24px;
+        }
+    }
+    nav {
+        ul {
+            display: flex;
+            li {
+                color: white;
+                margin-left: 20px;
+                a {
+                    font-size: 18px;
+                    transition: all 0.3s;
+                    &:hover {
+                        color: #1ed760;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    height: 1000px;
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-size: cover;
+    background-size: cover;
+    
+
+}
