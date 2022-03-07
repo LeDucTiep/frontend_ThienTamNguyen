@@ -1,0 +1,165 @@
+h1 {
+  -webkit-transform: translate(100px, 300px);
+          transform: translate(100px, 300px);
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  margin: 300px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.square:hover {
+  -webkit-transform: scale(3);
+          transform: scale(3);
+}
+
+.square img:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.mp3 {
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.mp3:hover img {
+  -webkit-transform: rotate(36099990deg);
+          transform: rotate(36099990deg);
+}
+
+.mp3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.mp3 h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 30px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+
+.mp3 .blur-bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(51, 51, 51, 0.5);
+  position: absolute;
+  top: 0;
+}
+
+.mp3_1 {
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.mp3_1:hover img {
+  -webkit-transform: scale(2) rotate(99999deg);
+          transform: scale(2) rotate(99999deg);
+}
+
+.mp3_1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.mp3_1 h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 30px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+
+.mp3_1 .blur-bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(51, 51, 51, 0.5);
+  position: absolute;
+  top: 0;
+}
+
+.mp3_2 {
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mp3_2:hover .blur-bg {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+}
+
+.mp3_2 img {
+  width: 200px;
+  height: 200px;
+}
+
+.mp3_2 h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 30px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+
+.mp3_2 .blur-bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.5);
+  position: absolute;
+  top: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.mp3_3 {
+  margin-left: 100px;
+}
+
+.mp3_3:hover .border {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.mp3_3 .border {
+  width: 60px;
+  height: 3px;
+  background: red;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */

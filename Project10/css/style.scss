@@ -1,0 +1,131 @@
+h1 {
+  transform: translate(100px, 300px);
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  margin: 300px;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(3);
+  }
+  img:hover {
+    transform: rotate(90deg);
+  }
+}
+
+.mp3 {
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+
+  &:hover img {
+    transform: rotate(36099990deg);
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 2s;
+  }
+  position: relative;
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+  }
+  .blur-bg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(#333, 0.5);
+    position: absolute;
+    top: 0;
+  }
+}
+.mp3_1 {
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  &:hover img {
+    transform: scale(2) rotate(99999deg);
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 2s;
+  }
+  position: relative;
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+  }
+  .blur-bg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(#333, 0.5);
+    position: absolute;
+    top: 0;
+  }
+}
+.mp3_2 {
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+  &:hover .blur-bg {
+    transform: scaleY(0);
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  position: relative;
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+  }
+  .blur-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(#333, 0.5);
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+  }
+}
+.mp3_3 {
+  margin-left: 100px;
+  &:hover .border {
+    transform: scaleX(1);
+  }
+  .border {
+    width: 60px;
+    height: 3px;
+    background: red;
+    transform: scaleX(0);
+    transition: 1s;
+  }
+}
