@@ -1,0 +1,29 @@
+h1 {
+  // nếu Poppins ko tìm thấy thì sẽ lấy sans-serif làm font mặc định.
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  i {
+    color: deepskyblue;
+  }
+}
+
+h1 {
+  color: red;
+}
+.title {
+  display: inline-block;
+  &:after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: red;
+    display: block;
+  }
+
+  &:before {
+    content: "";
+  }
+}
