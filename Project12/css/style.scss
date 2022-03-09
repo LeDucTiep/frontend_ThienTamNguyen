@@ -1,0 +1,83 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+}
+
+header {
+  background-color: #333;
+  padding: 20px 0px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      a {
+        font-size: 24px;
+      }
+    }
+    nav {
+      // dấu > để chọn con chứ ko chọn cháu chắt ...
+
+      > ul {
+        display: flex;
+
+        > li {
+          margin-left: 20px;
+          position: relative;
+          padding: 10px 0px;
+
+          &:hover ul.dropdown {
+            display: block;
+          }
+          ul.dropdown {
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 100%;
+              left: 50%;
+              transform: translateX(-48px);
+              z-index: 2;
+              border-top: 11px solid transparent;
+              border-right: 11px solid transparent;
+              border-bottom: 11px solid white;
+              border-left: 11px solid transparent;
+            }
+
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: 101%;
+              left: 50%;
+              transform: translateX(-50px);
+              border-top: 13px solid transparent;
+              border-right: 13px solid transparent;
+              border-bottom: 13px solid black;
+              border-left: 13px solid transparent;
+            }
+
+            display: none;
+            position: absolute;
+            left: -10px;
+            top: 40px;
+            background-color: white;
+            border: 2px solid black;
+            width: 140px;
+
+            li {
+              padding: 10px 15px;
+              a {
+                color: #333;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
