@@ -1,0 +1,24 @@
+.parent {
+  width: 500px;
+}
+
+h1 {
+  background: goldenrod;
+}
+
+.world {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+}

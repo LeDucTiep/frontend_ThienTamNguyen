@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #333;
+}
+
+body,
+html,
+input,
+button {
+  font-family: "Poppins", Courier, monospace;
+}
+
+form {
+  width: 400px;
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+  h2 {
+    text-align: center;
+    i {
+      margin-right: 10px;
+    }
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    input {
+      padding: 8px 10px;
+      border-radius: 4px;
+      border: 1px solid rgba(#333, 0.4);
+    }
+    label {
+      margin-bottom: 5px;
+    }
+  }
+  button {
+    background: rgba(#333, 0.3);
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .gender {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    .male {
+      margin-right: 10px;
+    }
+  }
+  .favourtes {
+    font-weight: bold;
+    margin: 10px 0px;
+  }
+}
